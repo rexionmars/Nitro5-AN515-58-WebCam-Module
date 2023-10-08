@@ -2,7 +2,7 @@
 
 ```sh
 sudo apt update
-sudp apt upgrade
+sudo apt upgrade
 sudo apt install build-essential -y 
 cd ~  # change to your home directory
 apt-get source linux-modules-extra-$(uname -r)
