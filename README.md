@@ -10,9 +10,13 @@ cd ~/linux-*/drivers/media/usb/uvc
 mv uvc_driver.c uvc_driver.old
 ```
 
-Download my version for AN515-58
+Download my version for AN515-58 **Kernel 6.2**
 ```sh
-wget https://raw.githubusercontent.com/rexionmars/Nitro5-AN515-58-WebCam-Module/master/uvc_driver.c
+wget https://raw.githubusercontent.com/rexionmars/Nitro5-AN515-58-WebCam-Module/master/uvc_driver_kernel_6.2/uvc_driver.c
+```
+Download my version for AN515-58 **Kernel 6.5**
+```sh
+wget https://raw.githubusercontent.com/rexionmars/Nitro5-AN515-58-WebCam-Module/master/uvc_driver_kernel_6.5/uvc_driver.c
 ```
 Compile new module
 
