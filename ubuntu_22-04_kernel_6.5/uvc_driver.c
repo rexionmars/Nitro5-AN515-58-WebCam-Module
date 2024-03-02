@@ -22,6 +22,7 @@
 
 #include <media/v4l2-common.h>
 #include <media/v4l2-ioctl.h>
+#include "v4l2-uvc.h"
 
 #include "uvcvideo.h"
 
@@ -2445,7 +2446,6 @@ static const struct usb_device_id uvc_ids[] = {
 	  .bInterfaceSubClass	= 1,
 	  .bInterfaceProtocol	= 0,
 	  .driver_info		= (kernel_ulong_t)&uvc_ctrl_power_line_limited },
-
 	/* Quanta USB2.0 HD UVC Webcam */
 	{ .match_flags		= USB_DEVICE_ID_MATCH_DEVICE
 				| USB_DEVICE_ID_MATCH_INT_INFO,
@@ -2455,7 +2455,7 @@ static const struct usb_device_id uvc_ids[] = {
 	  .bInterfaceSubClass	= 1,
 	  .bInterfaceProtocol	= UVC_PC_PROTOCOL_15,
 	  .driver_info		= (kernel_ulong_t)&uvc_ctrl_power_line_limited },
-
+	
 	/* Quanta ACER HD User Facing  0x4035 - Experimental */
 	{ .match_flags 	= USB_DEVICE_ID_MATCH_DEVICE
 			| USB_DEVICE_ID_MATCH_INT_INFO,
