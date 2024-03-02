@@ -36,7 +36,8 @@ mv uvc_driver.c uvc_driver.old
 ```
 Download my version for AN515-58 **Kernel 6.5**
 ```sh
-wget https://raw.githubusercontent.com/rexionmars/Nitro5-AN515-58-WebCam-Module/master/uvc_driver_kernel_6.2/uvc_driver.c
+wget https://github.com/rexionmars/Nitro5-AN515-58-WebCam-Module/blob/master/ubuntu_22-04_kernel_6.5/v4l2-uvc.h
+wget https://github.com/rexionmars/Nitro5-AN515-58-WebCam-Module/blob/master/ubuntu_22-04_kernel_6.5/uvc_driver.c
 ```
 Compile new module
 
@@ -47,3 +48,5 @@ sudo cp uvcvideo.ko /lib/modules/$(uname -r)/kernel/drivers/media/usb/uvc/
 Finaly
 ```sh
 sudo reboot
+```
+Please, report any doubts or issues you may be experiencing with Linux to the following email addresses: opensource.leonardi@gmail.com or leonardimelo43@gmail.com. I will assist as soon as possible.
