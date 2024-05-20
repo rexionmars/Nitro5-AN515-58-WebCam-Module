@@ -36,8 +36,8 @@ mv uvc_driver.c uvc_driver.old
 ```
 Download my version for AN515-58 **Kernel 6.5**
 ```sh
-https://raw.githubusercontent.com/rexionmars/Nitro5-AN515-58-WebCam-Module/master/ubuntu_22-04_kernel_6.5/v4l2-uvc.h
-https://raw.githubusercontent.com/rexionmars/Nitro5-AN515-58-WebCam-Module/master/ubuntu_22-04_kernel_6.5/uvc_driver.c
+wget https://raw.githubusercontent.com/rexionmars/Nitro5-AN515-58-WebCam-Module/master/ubuntu_22-04_kernel_6.5/v4l2-uvc.h
+wget https://raw.githubusercontent.com/rexionmars/Nitro5-AN515-58-WebCam-Module/master/ubuntu_22-04_kernel_6.5/uvc_driver.c
 ```
 Compile new module
 
